@@ -41,3 +41,28 @@ iframe#tela {
     width: 269px;
     height: 471px;
 }
+
+#redes-sociais {
+    position: absolute;
+    bottom: 0; /* Posiciona a seção no rodapé */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Corrige o deslocamento horizontal */
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaço entre os ícones */
+    padding: 10px 0; /* Pequeno espaçamento vertical */
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.442);
+    transform: translate(0px, -5px);
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.136);
+    box-sizing: border-box;
+    transition: transform .2s;
+}
